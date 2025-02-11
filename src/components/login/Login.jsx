@@ -12,7 +12,7 @@ function Login() {
             <section className={styles.containerLoginForm}>
                 <img src={Logo} alt="Logo da WS" />
                 <h1>Boas vindas ao novo Portal SISPAR</h1>
-                <p>Sistema de Emissão</p>
+                <h2>Sistema de Emissão de Boletos e Parcelamento</h2>
                 <form action="">
                     <input type="email" name="" id="" placeholder="Email" />
                     <input type="password" name="" id="" placeholder="Senha" /><p>Esqueci minha senha</p>
