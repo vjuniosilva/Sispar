@@ -1,0 +1,84 @@
+.bodySolicitacao{
+    display: flex;
+}
+
+.principalSolicitacao{
+width: 95vw;
+//background-color: aqua;
+}
+
+.formSolicitacao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerSolicitacao{
+    //border: solid red;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-top: 25px;
+    height: 2.5vh;
+    
+}
+
+label{
+    font-weight: 700;
+    //font-size: 1rem;
+    color: #23282F;
+}
+
+input, select, textarea{
+    border-radius: 6px;
+    border: solid #CBD4E1 0.8px;
+    height: 3vh;
+    width: 100%;
+}
+
+.grupo1{
+    //border: solid;
+    width: 40%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputNome{
+    //border: solid red;
+    width: 45%;
+}
+
+.inputEmpresa{
+    //border: solid blue;
+    width: 27%;
+}
+
+.inputPrestacao{
+    //border: solid blueviolet;
+    width: 27%;
+}
+
+.inputMotivo{
+    //border: solid burlywood;
+    width: 100%;
+    textarea{
+       height: 10vh;
+     }
+}
+
+//Estilização da barra vertical
+
+.barraVertical{
+    background-color: #CBD4E1;
+    height: 25vh;
+    width: 0.1vw;
+
+}
+
+//Estilização grupo 2
+
+.grupo2{
+    border: solid pink;
+    width: 50%;
+}
