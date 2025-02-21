@@ -1,131 +1,183 @@
-.bodySolicitacao{
+.bodySolicitacao {
     display: flex;
 }
 
-.principalSolicitacao{
-width: 95vw;
-//background-color: aqua;
+.principalSolicitacao {
+    width: 93vw;
+    //border: solid blue;
+    margin-left: 16px;
+
+    //background-color: aqua;
 }
 
-.formSolicitacao{
+.mainSolicitacao {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
 
-.headerSolicitacao{
+.formSolicitacao {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headerSolicitacao {
     //border: solid red;
     display: flex;
-    justify-content: space-evenly;
-    width: 30%;
+    justify-content: space-between;
+    width: 25%;
     margin-top: 25px;
     height: 2.5vh;
-    
+
 }
 
-label{
+label {
     font-weight: 700;
     //font-size: 1rem;
     color: #23282F;
 }
 
-input, select, textarea{
+input,
+select,
+textarea {
     border-radius: 6px;
     border: solid #CBD4E1 0.8px;
     height: 5vh;
     width: 100%;
 }
 
-.grupo1{
+.grupo1 {
     //border: solid;
     width: 35%;
     height: 25vh;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 
-.inputNome{
-    //border: solid red;
+.inputNome {
+
     width: 45%;
 }
 
-.inputEmpresa{
-    //border: solid blue;
+.inputEmpresa {
+    
     width: 27%;
 }
 
-.inputPrestacao{
-    //border: solid blueviolet;
+.inputPrestacao {
     width: 27%;
 }
 
-.inputMotivo{
-    //border: solid burlywood;
+.inputMotivo {
     width: 100%;
-    textarea{
-       height: 10vh;
-     }
+
+    textarea {
+        height: 10vh;
+    }
 }
 
-//Estilização da barra vertical
 
-.barraVertical{
+.barraVertical {
     background-color: #CBD4E1;
     height: 25vh;
     width: 0.1vw;
 
 }
 
-//Estilização grupo 2
 
-.grupo2{
-    border: solid pink;
+
+.grupo2 {
     width: 61%;
+    height: 25vh;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items:center;
 }
 
-.inputData{
+.inputData {
     width: 19%
 }
 
-.inputTiposDespesas{
+.inputTiposDespesas {
     width: 28%;
 }
 
-.inputCusto{
+.inputCusto {
     width: 48%;
 }
 
-.inputOrdem{
+.inputOrdem {
     width: 8%;
+
 }
 
-.inputDiv{
+.inputDiv, .inputPep, .inputDistKm {
     width: 7%;
 }
 
-.inputPep{
-    width: 7%;
-}
 
-.inputMoeda{
+.inputMoeda {
     width: 9%;
 }
 
-.inputDistKm{
-    width: 7%;
-}
 
-.inputValorKm{
+.inputValorKm {
     width: 10%;
 }
 
-.inputValorFaturado{
+.inputValorFaturado, .inputDespesa {
     width: 12%;
 }
 
-.inputDespesa{
-    width: 12%;
+
+.botoes {
+   
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+
+
+    .salvar {
+        width: 6vw;
+        color: #ffffff;
+        background-color: #001A3D;
+    }
+
+    .botaoDeletar{
+        background-color: #00BEDD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    border: solid #CBD4E1 0.8px;
+}
+
+th {
+    background-color: #F1F4F9;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #23282F;
+
+
+}
+
+th,
+td {
+    border: solid;
+    text-align: center;
+    border: solid #CBD4E1 0.8px;
+
 }
