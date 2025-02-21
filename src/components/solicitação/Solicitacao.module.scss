@@ -31,13 +31,13 @@ label{
 input, select, textarea{
     border-radius: 6px;
     border: solid #CBD4E1 0.8px;
-    height: 3vh;
+    height: 5vh;
     width: 100%;
 }
 
 .grupo1{
     //border: solid;
-    width: 40%;
+    width: 35%;
     height: 25vh;
     display: flex;
     justify-content: space-between;
@@ -80,5 +80,52 @@ input, select, textarea{
 
 .grupo2{
     border: solid pink;
-    width: 50%;
+    width: 61%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputData{
+    width: 19%
+}
+
+.inputTiposDespesas{
+    width: 28%;
+}
+
+.inputCusto{
+    width: 48%;
+}
+
+.inputOrdem{
+    width: 8%;
+}
+
+.inputDiv{
+    width: 7%;
+}
+
+.inputPep{
+    width: 7%;
+}
+
+.inputMoeda{
+    width: 9%;
+}
+
+.inputDistKm{
+    width: 7%;
+}
+
+.inputValorKm{
+    width: 10%;
+}
+
+.inputValorFaturado{
+    width: 12%;
+}
+
+.inputDespesa{
+    width: 12%;
 }
